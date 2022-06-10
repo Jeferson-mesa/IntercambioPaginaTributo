@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Poetry in the texts</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Amor no es solo estar enamorado, son también las secuelas y las heridas. El amor es un proceso, un camino">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body> 
+
+
+  <!-- Navigation bar with social media icons -->
+  <div class="w3-bar w3-light w3-white w3-hide-small w3-center icons">
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook facebook"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter twitter"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram instagram"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-github github"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-youtube youtube"></i></a>
+  </div>
+
+  <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image " src="img/Noche de locura.jpg" alt="Fashion Blog" width="2000" height="1060">
+    <div class="w3-display-left w3-padding-large landingText">
+      <h1 class="w3-text-white"></h1>
+      <h1 class="w3-xxxlarge header"><b>Poetry in the texts</b></h1>
+      <h3 class="header">For <span class="w3-tag w3-pink">LALA</span></h3>
+      <h1 class="w3-jumbo w3-text-white w3-right-align w3-round-large w3-panel "><b class="w3-opacity"
+          style="text-shadow: 5px 5px 0 #000">Biggest Heartbeat Of My Life</b></h1>
+      <div class="buttons">
+        <a href="#bottom"
+          class="w3-button w3-text-white w3-pink w3-padding-large w3-large w3-round w3-hover-orange w3-hover-text-black topButton"><i
+            class="fa fa-arrow-down w3-margin-right" style="transition: .9s;"></i>To the bottom</a>
+        <h6><button
+            class="w3-button w3-text-white w3-pink w3-padding-large w3-large w3-round w3-hover-orange w3-hover-text-black"
+            onclick="document.getElementById('subscribe').style.display='block'" style="transition: .9s;">Click to
+            Suscribe</button></h6>
+      </div>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12"></div>
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center title-card title-card-1">
+        <h3>Kingdom of Lost Hearts</h3>
+        <h5>The Reunion of <span class="w3-tag w3-pink">Love</span></h5>
+      </div>
+
+      <div class="w3-justify card">
+        <img src="img/Primer amor.jpg" alt="Girl Hat" class="w3-center first">
+
+        <p class="w3-padding-16 w3-center"><strong> I search within myself!</strong> I can't find you, an emptiness, a
+          silence... I barely met you, but I still keep your memory and your last look before
+          say goodbye, hardly feeling anything, in the last breath, there is no room for forgiveness. If we didn't do it
+          before
+          I no longer want your forgiveness beyond a penalty, like a splinter that bleeds if I sigh, that burns if I
+          think of you, love is born and dies -yes- like the waves; that come and go</p>
+
+
+        <p class="w3-left"><button class="w3-button w3-pink w3-border w3-hover-orange"
+            onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-right"><button class="w3-button w3-orange w3-hover-pink" onclick="myFunction('demo1')"
+            id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+        <p class="w3-clear"></p>
+        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+          <hr>
+          <div class="w3-col  l2 m3">
+            <img src="img/poesia del corazon.jpg" style="width:100px;">
+          </div>
+          <div class="w3-col 110 m9">
+            <h4>@PoetryOfTheHeart <span class="w3-opacity w3-medium"> <br> june 2, 2022, 5:32 PM</br></span></h4>
+            <p>Your voice is as beautiful as a melody, as charming as a poem... I feel calm with it </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center title-card title-card-2">
+        <h3>THE DARKNESS</h3>
+        <h5> Do not allow the darkness of this world <span class="w3-tag w3-pink">turn off your light</span><span
+            class="w3-opacity"></span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="img/Fondo2.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+        <p class="w3-center"><strong>A great love</strong> that will not be forgotten</p>
+        <p class="w3-center"> We were something very beautiful, we were eternal for a time without fear, we were two at
+          a time, we were everything created. Now we are no longer, now I am, now you are. I remember now
+          the moments where we were, because we can no longer be. And of the dreams and illusions, there is only the
+          memory that one day we said to love each other.
+          To lower the moon and eat the world. That you were my everything and I your universe.</p>
+        <p class="w3-left"><button class="w3-button w3-pink w3-border w3-hover-orange"
+            onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-right"><button class="w3-button w3-orange w3-hover-pink" onclick="myFunction('demo3')"
+            id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+        <p class="w3-clear"></p>
+
+        <!-- Example of comment field -->
+        <div id="demo3" style="display:none">
+          <hr>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="img/Tinieblas de tu luz.jpg" style="width:100px; height: 140px">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>@TheSoul<span class="w3-opacity w3-medium"> <br>june 3,2022,6:30 PM</span></h4>
+              <p>Love is a feeling of joy and sadness</p>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="img/Primer amor.jpg" style="width:100px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>@TheLove08 <span class="w3-opacity w3-medium"><br>june 4, 2022, 7:32 PM</span></h4>
+              <p>Love consists of a present soul and two bodies!</p>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="img/alguien orgulloso de tenerte.jpg" style="width:100px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>@YourMagic <span class="w3-opacity w3-medium"><br>may 7, 2022, 9:12 PM</span></h4>
+              <p> When I saw you for the first time!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END BLOG ENTRIES -->
+  </div>
+
+  <!-- About/Information menu -->
+  <div class="w3-col l4">
+    <!-- About Card -->
+    <div class="">
+      <img src="img/fondo6.jpg" alt="Jane" style="width:100%; position: relative; left: 100%">
+      <div class="w3-container w3-black w3-center" style="position: relative; left: 100%">
+        <h4>I like you since the day I saw you for the first time</h4>
+        <p>As if each kiss were a goodbye!</p>
+      </div>
+    </div>
+
+    <div class="">
+      <img src="img/fondo3.jpg" alt="" style="width:1000px; position: absolute; ">
+      <div class="w3-container w3-black w3-center" style="position: relative; left: 100%; margin-top: 20px">
+      </div>
+    </div>
+
+    <div class="">
+      <img src="img/fondo4.jpg" alt="Jane" style="width:1000px; position: absolute; left: 1000px; top: 5800px">
+      <div class="w3-container w3-black w3-center" style="position: relative; left: 100%">
+
+      </div>
+    </div>
+
+    <!-- Posts -->
+    <div class="w3-white w3-margin" style="position: relative; left: 100%">
+      <div class="w3-container w3-padding w3-black">
+        <h4>50 Secrets of the Heart</h4>
+      </div>
+      <ul class="w3-ul w3-hoverable w3-white">
+        <li class="w3-padding-16">
+          <img src="img/SECRETO.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">The magic of your lips</span>
+          <br>
+          <span>True love has no end!</span>
+        </li>
+        <li class="w3-padding-18">
+          <img src="img/El amor no tiene limite.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">You make me fall more in love with you every day</span>
+          <br>
+          <span>I'm with you darling if that's what you want; together we sink!</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="img/La fortuna de tenerte.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">¿fate or chance?</span>
+          <br>
+          <span>Just for tonight put your fingers on my bones and dance inside me!</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="img/pensamiento.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+          <span class="w3-large">How would our lives have been? Would something have changed?</span>
+          <br>
+          <span> It was a yes full of unknowns that always accompanied me!</span>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <!-- Tags -->
+    <div class="w3-white w3-marginal" style="position: relative; left: 100%">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Madness of your true love </h4>
+      </div>
+      <div class="w3-container w3-white">
+        <p>
+          <span class="w3-tag w3-light-grey w3-margin-bottom w3-margin-top">The Adventure Of Love</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">I think of you in every moment</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">I give you to the universe </span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Consequence of a Tortured Love</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">The night is boring without you</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hate and love draws closer</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Your thought brings me crazy</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">Having you by my side is wonderful</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">an indecisive love</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">You are the best of life</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">You are the light of my heart</span>
+          <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">The magic of being with you</span> <span
+            class="w3-tag w3-light-grey w3-small w3-margin-bottom">Your eyes shine like the moon</span>
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Inspiration -->
+    <div class="w3-white w3-margin" style="position: relative; left: 100%">
+      <div class="w3-container w3-padding w3-black">
+        <h4>ALLUSIVE IMAGES</h4>
+      </div>
+      <div class="w3-row-padding w3-white">
+        <div class="w3-col s6">
+          <p><img src="img/poesia del corazon.jpg" alt="Jeans" style="width:100%; padding: 10px"></p>
+          <p><img src="img/Emociones del corazon.jpg" alt="Jeans" style="width:100%; padding: 10px"></p>
+        </div>
+        <div class="w3-col s6">
+          <p><img src="img/Noche de locura.jpg" alt="Men in Hats" style="width:100%; padding: 10px"
+              class="w3-grayscale"></p>
+          <p><img src="img/SECRETO.jpg" alt="Jeans" style="width:100%"></p>
+          <P><img src="img/pensamiento.jpg" alt="jeans" style="width:100%; padding: 10px;"></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="w3-white w3-margin" style="position: relative; left: 100%">
+      <div class="w3-container w3-padding w3-black w3-center">
+        <h4>Follow Me</h4>
+      </div>
+      <div class="w3-container w3-xlarge w3-padding w3-center">
+       <a href="#"> <i class="fa fa-facebook-official w3-hover-opacity facebook"></i></a>
+       <a href="#"><i class="fa fa-instagram w3-hover-opacity instagram"></i></a>
+       <a href="#"><i class="fa fa-github w3-hover-opacity github"></i></a>
+       <a href="#"><i class="fa fa-pinterest-p w3-hover-opacity pinterest"></i></a>
+
+      </div>
+    </div>
+
+
+    <!-- Suscribe -->
+    <div class="w3-white w3-margin w3-center" style="position: relative; left: 100%">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Suscribe</h4>
+      </div>
+      <div class="w3-container w3-white" id="bottom">
+        <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+        <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'"
+            style="transition: .9s;" class="w3-button w3-block w3-pink w3-hover-orange">Suscribe</button></p>
+      </div>
+    </div>
+
+    <!-- END About/Intro Menu -->
+  </div>
+
+  <!-- END GRID -->
+  </div>
+
+  <!-- END w3-content -->
+  </div>
+
+  <!-- Subscribe Modal -->
+  <div id="subscribe" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content" style="padding:32px">
+      <div class="w3-container w3-white">
+        <i onclick="document.getElementById('subscribe').style.display='none'"
+          class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+        <h2 class="w3-wide">SUSCRIBE</h2>
+        <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" id="email"></p>
+        <button type="button" class="w3-button w3-block w3-padding-large w3-pink w3-hover-orange w3-margin-bottom"
+          style="transition: .9s;" onclick="document.getElementById('subscribe').style.display='none'">Suscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container " style="padding:32px">
+    <a href="#"
+      class="w3-button w3-text-white w3-pink w3-padding-large w3-large w3-round w3-hover-orange w3-hover-text-black topButton"
+      style="position: relative; left: 45%"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  </footer>
+
+  <script>
+    // Toggle between hiding and showing blog replies/comments
+    document.getElementById("myBtn").click();
+
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    function likeFunction(x) {
+      x.style.fontWeight = "bold";
+      x.innerHTML = "✓ Liked";
+    }
+  </script>
+
+</body>
+
+</html>
